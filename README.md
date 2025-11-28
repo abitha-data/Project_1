@@ -109,6 +109,17 @@ Git helps track changes in the code, while GitHub is used to store the project o
 JSON is a simple text-based format used to store and exchange data.
 It holds data in key–value pairs, making it easy to read, write, and convert into tables for analysis.
 
+### ⭐ Prerequisites:
+Python 3.x installed on your system.
+
+PostgreSQL installed and running 🗄️
+
+pip package manager
+
+Git installed for cloning the PhonePe Pulse repository
+
+Stable internet connection for fetching data 🌐
+
 ### 🗄️ Folder Structure:
 📁 phonepe-Transaction/
 
