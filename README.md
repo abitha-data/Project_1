@@ -110,8 +110,10 @@ JSON is a simple text-based format used to store and exchange data.
 It holds data in key–value pairs, making it easy to read, write, and convert into tables for analysis.
 
 ### Installation:
-Clone the repository:
-git clone <your-repo-url>
+1. Clone the repository:
+
+       git clone <your-repo-url>
+
 
 2. Install dependencies
 pip install -r requirements.txt
