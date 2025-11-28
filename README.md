@@ -55,9 +55,10 @@ To install this package:
  pip install psycopg2
 
 ### Streamlit:
-Streamlit is an open-source Python library designed to create and share custom web applications for data science and machine learning projects with minimal effort. Its simplicity and focus on rapid prototyping make it a popular choice among data scientists and developers who need to quickly visualize and interact with data. Also you can download the data as csv file from the web application. To install this package 
+Streamlit is an open-source Python library designed to create and share custom web applications for data science and machine learning projects with minimal effort. Its simplicity and focus on rapid prototyping make it a popular choice among data scientists and developers who need to quickly visualize and interact with data. Also you can download the data as csv file from the web application. To install this package:
 
-pip install streamlit
+           pip install streamlit
+
 
 Plotly & Altair – for charts and visualizations
 
