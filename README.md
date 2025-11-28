@@ -15,22 +15,22 @@ The main goal of this project is to analyze India’s digital payment trends usi
 
 ### ⭐ ✨ Features
 
-Shows transaction trends across all states in India.
+🗺️ State-wise transaction analysis across India
 
-Displays user growth and app opens clearly.
+👥 User growth & app engagement insights
 
-Provides insurance data insights for each state.
+🛡️ Insurance purchase trends visualization
 
-Interactive India map to see state-wise performance.
+🗾 Interactive India choropleth maps
 
-Heatmaps to compare year-wise digital payment growth.
+🔥 Year-wise digital payment heatmaps
 
-Top 10 states list for quick comparison.
+🏆 Top 10 performing states for quick comparison
 
-Easy filtering by year, state, and data type.
+🎛️ Easy filters for year, state, and data type
 
-Clean and interactive Streamlit dashboard.
+📊 Interactive Streamlit dashboard
 
-Full end-to-end workflow: Extract → Transform → Load → Visualize.
+🔄 Complete ETL pipeline (Extract → Transform → Load → Visualize)
 
-Uses real data from PhonePe Pulse GitHub.
+📂 Uses real PhonePe Pulse open-source dataset
