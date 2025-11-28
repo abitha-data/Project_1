@@ -14,14 +14,5 @@
 
    PhonePe Transaction Insights is an end-to-end data analysis project built using the open-source PhonePe Pulse dataset. It covers the complete workflow — extracting raw JSON files, transforming and loading them into SQL, analyzing the data with SQL & Python, and visualizing the results through an interactive Streamlit dashboard. The project provides clear state-wise and district-wise insights on transactions, user growth, app engagement, and insurance trends across different years and quarters. Overall, this project highlights digital payment patterns across India and demonstrates strong skills in ETL, SQL analytics, data visualization, and dashboard development.
    
-### 📌 Skills Demonstrated:
-
-✔ Data Extraction
-✔ SQL Proficiency
-✔ Data Visualization
-✔ Streamlit Dashboard Development
-✔ Analytical Thinking
-✔ Documentation
-
 ### 📌 Domain: Finance / Digital Payments
 ### 📌 Dataset Source: PhonePe Pulse GitHub Repository
