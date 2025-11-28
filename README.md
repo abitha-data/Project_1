@@ -111,8 +111,8 @@ It holds data in key–value pairs, making it easy to read, write, and convert i
 
 ### Installation:
 1. Clone the repository:
+   git clone <your-repo-url>
 
-      git clone <your-repo-url>
 
 
 3. Install the necessary dependencies:
