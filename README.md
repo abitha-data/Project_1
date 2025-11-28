@@ -2,18 +2,18 @@
 ## 📱💸📊 PhonePe Transaction Insights – End-to-End Data Analytics Project
   ###  Interactive Dashboard • SQL Analysis • Python EDA • Streamlit App
 
-### ⭐ 📊 PhonePe Transaction Insights – Project Overview
+### 📊 PhonePe Transaction Insights – Project Overview
 
    PhonePe Transaction Insights is an end-to-end data analysis project built using the open-source PhonePe Pulse dataset. It covers the complete workflow — extracting raw JSON files, transforming and loading them into SQL, analyzing the data with SQL & Python, and visualizing the results through an interactive Streamlit dashboard. The project provides clear state-wise and district-wise insights on transactions, user growth, app engagement, and insurance trends across different years and quarters. Overall, this project highlights digital payment patterns across India and demonstrates strong skills in ETL, SQL analytics, data visualization, and dashboard development.
    
 ### 📌 Domain: Finance / Digital Payments
 ### 📌 Dataset Source: PhonePe Pulse GitHub Repository
 
-### ⭐ 🎯 Project Goal
+### 🎯 Project Goal
 
 The main goal of this project is to analyze India’s digital payment trends using the PhonePe Pulse dataset by converting raw JSON data into meaningful insights through ETL processing, SQL analysis, Python-based visualizations, and an interactive Streamlit dashboard. The project aims to clearly understand transaction patterns, user adoption, app engagement, and insurance usage across states and districts, helping identify top-performing regions and overall digital payment growth in India.
 
-### ⭐ ✨ Features
+### ✨ Features
 
 🗺️ State-wise transaction analysis across India
 
@@ -74,7 +74,7 @@ The main goal of this project is to analyze India’s digital payment trends usi
                 | Streamlit Dashboard UI |
                 +------------------------+
 
-### ⭐ 🛠️ Technologies Used 
+### 🛠️ Technologies Used 
 ### Python:
 The core programming language used for developing the data extraction and processing scripts.
 
@@ -109,7 +109,7 @@ Git helps track changes in the code, while GitHub is used to store the project o
 JSON is a simple text-based format used to store and exchange data.
 It holds data in key–value pairs, making it easy to read, write, and convert into tables for analysis.
 
-### ⭐ Prerequisites:
+### Prerequisites:
 Python 3.x installed on your system.
 
 PostgreSQL installed and running 🗄️
@@ -120,7 +120,7 @@ Git installed for cloning the PhonePe Pulse repository
 
 Stable internet connection for fetching data 🌐
 
-### ⭐ 🔄 Project Workflow:
+### 🔄 Project Workflow:
 ### 1️⃣ Data Extraction:
 
 The PhonePe Pulse GitHub repository is cloned automatically using a Python script.
@@ -139,7 +139,7 @@ Columns such as state, year, quarter, transaction_count, transaction_amount, use
 
 Missing or inconsistent values are handled to ensure accuracy.
 
-### 3️⃣ 🗄️ Database Insertion (PostgreSQL):
+### 3️⃣  Database Insertion (PostgreSQL):
 
 The transformed data is inserted into PostgreSQL tables using a connector like psycopg2.
 
@@ -147,7 +147,7 @@ Separate tables are created for transactions, users, insurance, and top metrics.
 
 SQL schema ensures fast filtering, grouping, and aggregation during analysis.
 
-### 4️⃣ 🖥️ Dashboard Creation (Streamlit + Plotly):
+### 4️⃣  Dashboard Creation (Streamlit + Plotly):
 
 An interactive Streamlit dashboard is built to visualize insights.
 
@@ -157,7 +157,7 @@ Users can filter data by year, state, category, and type of metric.
 
 Dashboard updates dynamically based on the selected filters.
 
-### 5️⃣ 🔄 Data Retrieval & Live Updates:
+### 5️⃣ Data Retrieval & Live Updates:
 
 When the dashboard loads, data is fetched from PostgreSQL.
 
