@@ -109,6 +109,16 @@ Git helps track changes in the code, while GitHub is used to store the project o
 JSON is a simple text-based format used to store and exchange data.
 It holds data in key–value pairs, making it easy to read, write, and convert into tables for analysis.
 
+### Installation:
+1. Clone the repository:
+      git clone <your-repo-url>
+
+2. Install the necessary dependencies:
+      pip install -r requirements.txt
+
+3. Run Streamlit Dashboard
+     streamlit run app.py
+
 ### Prerequisites:
 Python 3.x installed on your system.
 
