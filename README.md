@@ -115,7 +115,7 @@ It holds data in key–value pairs, making it easy to read, write, and convert i
        git clone <your-repo-url>
 
 
-2. Install dependencies
+2. Install the necessary dependencies:
 
        pip install -r requirements.txt
 
