@@ -126,15 +126,15 @@ It holds data in key–value pairs, making it easy to read, write, and convert i
 
 
 ### Prerequisites:
-Python 3.x installed on your system.
+1. Python 3.x installed on your system.
 
-PostgreSQL installed and running 🗄️
+2. PostgreSQL installed and running 🗄️
 
-pip package manager
+3. pip package manager
 
-Git installed for cloning the PhonePe Pulse repository
+4. Git installed for cloning the PhonePe Pulse repository
 
-Stable internet connection for fetching data 🌐
+5. Stable internet connection for fetching data 🌐
 
 ### 🔄 Project Workflow:
 ### 1️⃣ Data Extraction:
