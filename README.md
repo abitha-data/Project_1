@@ -62,8 +62,10 @@ Streamlit is an open-source Python library designed to create and share custom w
 
 Plotly & Altair – for charts and visualizations
 
-Streamlit – for building the dashboard
+### Git & GitHub:
+Git & GitHub are used for version control and project management.
+Git helps track changes in the code, while GitHub is used to store the project online, collaborate, and fetch the PhonePe Pulse dataset directly from the official repository.
 
-Git & GitHub – for version control and dataset source
-
-JSON – raw data format used in the project
+### JSON: 
+JSON is a simple text-based format used to store and exchange data.
+It holds data in key–value pairs, making it easy to read, write, and convert into tables for analysis.
