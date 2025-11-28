@@ -52,7 +52,7 @@ PostgreSQL-Connector was used to establish a connection between Python and the P
 It allows Python scripts to execute SQL queries, insert data, fetch results, and manage the ETL workflow smoothly, 
 To install this package:
 
- pip install psycopg2
+       pip install psycopg2
 
 ### Streamlit:
 Streamlit is an open-source Python library designed to create and share custom web applications for data science and machine learning projects with minimal effort. Its simplicity and focus on rapid prototyping make it a popular choice among data scientists and developers who need to quickly visualize and interact with data. Also you can download the data as csv file from the web application. To install this package:
