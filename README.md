@@ -34,3 +34,18 @@ The main goal of this project is to analyze India’s digital payment trends usi
 🔄 Complete ETL pipeline (Extract → Transform → Load → Visualize)
 
 📂 Uses real PhonePe Pulse open-source dataset
+
+### ⭐ 🛠️ Technologies Used 
+Python – for data cleaning and analysis
+
+SQL – for storing and querying the data
+
+Pandas – for data manipulation
+
+Plotly & Altair – for charts and visualizations
+
+Streamlit – for building the dashboard
+
+Git & GitHub – for version control and dataset source
+
+JSON – raw data format used in the project
