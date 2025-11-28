@@ -121,8 +121,8 @@ It holds data in key–value pairs, making it easy to read, write, and convert i
 
 
 3. Run Streamlit Dashboard
-streamlit run app.py
 
+       streamlit run app.py
 
 
 ### Prerequisites:
