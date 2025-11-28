@@ -3,12 +3,6 @@
 
 ## 📊 PhonePe Transaction Insights – End-to-End Data Analytics Project
   ###  Interactive Dashboard • SQL Analysis • Python EDA • Streamlit App
-### 📱💸 PhonePe – Overview
-
-   PhonePe is India’s leading digital payments and financial services platform built on the UPI system, allowing users to easily send and receive money 💸, recharge mobiles 📱, pay electricity/water/gas bills 🔌💧, shop online 🛒, and make QR-code payments in offline stores 🏪. Launched in 2015 and later acquired by Flipkart, PhonePe has grown to over 350 million+ users 👥 and is accepted by more than 3 crore merchants across India. Apart from payments, PhonePe also offers insurance services 🛡️, mutual fund & gold investments 💹, and various financial products. It focuses heavily on security with UPI PIN protection and encryption 🔐. PhonePe also publishes the ‘PhonePe Pulse’ dataset, providing state-wise and district-wise insights into India’s digital payment trends, which is used widely for analytics and research 📊. Overall, PhonePe plays a major role in India’s digital economy and cashless movement 🇮🇳.
-### ⭐ 📊 PhonePe Pulse – Overview
-
-   PhonePe Pulse is India’s first open digital payments data platform that provides state-wise and district-wise insights on UPI transactions, user growth, app engagement, and insurance trends. It offers detailed data on transaction volume 🔢, value 💰, and user behaviour 👥 across different years and quarters. The entire dataset is publicly available on the PhonePe Pulse GitHub repository, which this project uses for ETL, SQL analysis, and dashboard visualizations. Overall, PhonePe Pulse helps understand India’s fast-growing cashless economy 🇮🇳📈.
 
 ### ⭐ 📊 PhonePe Transaction Insights – Project Overview
 
@@ -16,3 +10,7 @@
    
 ### 📌 Domain: Finance / Digital Payments
 ### 📌 Dataset Source: PhonePe Pulse GitHub Repository
+
+### ⭐ 🎯 Project Goal
+
+The main goal of this project is to analyze India’s digital payment trends using the PhonePe Pulse dataset by converting raw JSON data into meaningful insights through ETL processing, SQL analysis, Python-based visualizations, and an interactive Streamlit dashboard. The project aims to clearly understand transaction patterns, user adoption, app engagement, and insurance usage across states and districts, helping identify top-performing regions and overall digital payment growth in India.
