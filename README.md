@@ -120,6 +120,53 @@ Git installed for cloning the PhonePe Pulse repository
 
 Stable internet connection for fetching data 🌐
 
+### ⭐ 🔄 Workflow:
+### 1️⃣ Data Extraction
+
+A custom Python script is used to clone the PhonePe Pulse GitHub repository and automatically collect all the raw JSON files.
+This ensures the project always works with the latest dataset published by PhonePe.
+
+### 2️⃣ Data Transformation
+
+Using Python and Pandas, the raw JSON files (which contain nested and scattered information) are:
+
+cleaned,
+
+normalized,
+
+flattened, and
+
+converted into structured DataFrames.
+This step prepares the data to be stored in a database in a clean, analyzable format.
+
+### 3️⃣ Database Insertion (PostgreSQL)
+
+The transformed data is loaded into a PostgreSQL database.
+Tables are created for different categories such as transactions, users, and insurance.
+In this stage, INSERT queries are executed to store the data efficiently for future querying and analysis.
+
+### 4️⃣ Dashboard Creation
+
+An interactive dashboard is built using Streamlit and Plotly.
+This dashboard displays:
+
+choropleth maps,
+
+heatmaps,
+
+top-state comparisons,
+
+totals and summaries,
+allowing users to visually explore India’s digital payment trends.
+
+### 5️⃣ Data Retrieval (Dynamic Updates)
+
+Whenever a user selects a year, state, or category,
+the dashboard sends a query to the PostgreSQL database,
+fetches the latest data,
+and updates the visualizations instantly.
+This makes the dashboard dynamic, responsive, and user-friendly.
+
 ### 🗄️ Folder Structure:
 📁 phonepe-Transaction/
 
