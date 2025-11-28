@@ -120,52 +120,50 @@ Git installed for cloning the PhonePe Pulse repository
 
 Stable internet connection for fetching data 🌐
 
-### ⭐ 🔄 Workflow:
+### ⭐ 🔄 Project Workflow (Emoji + Detailed Version)
 ### 1️⃣ Data Extraction
 
-A custom Python script is used to clone the PhonePe Pulse GitHub repository and automatically collect all the raw JSON files.
-This ensures the project always works with the latest dataset published by PhonePe.
+The PhonePe Pulse GitHub repository is cloned automatically using a Python script.
+
+All JSON files containing state-wise, district-wise, and category-wise data are collected.
+
+Files are organized by year and quarter, ready for transformation.
 
 ### 2️⃣ Data Transformation
 
-Using Python and Pandas, the raw JSON files (which contain nested and scattered information) are:
+Using Python + Pandas, the raw JSON data is cleaned and normalized.
 
-cleaned,
+Nested JSON structures are flattened into tabular format.
 
-normalized,
+Columns such as state, year, quarter, transaction_count, transaction_amount, users, app_opens, etc. are properly structured.
 
-flattened, and
+Missing or inconsistent values are handled to ensure accuracy.
 
-converted into structured DataFrames.
-This step prepares the data to be stored in a database in a clean, analyzable format.
+### 3️⃣ 🗄️ Database Insertion (PostgreSQL)
 
-### 3️⃣ Database Insertion (PostgreSQL)
+The transformed data is inserted into PostgreSQL tables using a connector like psycopg2.
 
-The transformed data is loaded into a PostgreSQL database.
-Tables are created for different categories such as transactions, users, and insurance.
-In this stage, INSERT queries are executed to store the data efficiently for future querying and analysis.
+Separate tables are created for transactions, users, insurance, and top metrics.
 
-### 4️⃣ Dashboard Creation
+SQL schema ensures fast filtering, grouping, and aggregation during analysis.
 
-An interactive dashboard is built using Streamlit and Plotly.
-This dashboard displays:
+### 4️⃣ 🖥️ Dashboard Creation (Streamlit + Plotly)
 
-choropleth maps,
+An interactive Streamlit dashboard is built to visualize insights.
 
-heatmaps,
+Plotly is used to create India maps, bar charts, line charts, heatmaps, and comparison graphs.
 
-top-state comparisons,
+Users can filter data by year, state, category, and type of metric.
 
-totals and summaries,
-allowing users to visually explore India’s digital payment trends.
+Dashboard updates dynamically based on the selected filters.
 
-### 5️⃣ Data Retrieval (Dynamic Updates)
+### 5️⃣ 🔄 Data Retrieval & Live Updates
 
-Whenever a user selects a year, state, or category,
-the dashboard sends a query to the PostgreSQL database,
-fetches the latest data,
-and updates the visualizations instantly.
-This makes the dashboard dynamic, responsive, and user-friendly.
+When the dashboard loads, data is fetched from PostgreSQL.
+
+SQL queries supply updated values for maps, tables, and charts.
+
+Users always see the latest insights since the data is pulled directly from the database.
 
 ### 🗄️ Folder Structure:
 📁 phonepe-Transaction/
