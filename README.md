@@ -36,11 +36,19 @@ The main goal of this project is to analyze India’s digital payment trends usi
 📂 Uses real PhonePe Pulse open-source dataset
 
 ### ⭐ 🛠️ Technologies Used 
-Python – for data cleaning and analysis
+### Python – #### The core programming language used for developing the data extraction and processing scripts.
 
-SQL – for storing and querying the data
+### PostgreSQL 🗄️ – #### Main SQL database used for storing tables and running analytical queries
 
-Pandas – for data manipulation
+#### Pandas – #### For data manipulation and transformation. To install this package:
+
+          pip install Pandas
+
+### PostgreSQL 🗄️ -Connector: #### PostgreSQL-Connector was used to establish a connection between Python and the PostgreSQL database.
+It allows Python scripts to execute SQL queries, insert data, fetch results, and manage the ETL workflow smoothly, 
+To install this package:
+
+ pip install psycopg2
 
 Plotly & Altair – for charts and visualizations
 
