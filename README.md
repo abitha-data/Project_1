@@ -36,7 +36,7 @@ The main goal of this project is to analyze India’s digital payment trends usi
 📂 Uses real PhonePe Pulse open-source dataset
 
 ### 🗂️ Project Architecture Diagram
-### 🧩 High-Level Flowchart (ASCII version)
+### 🧩 High-Level Flowchart
                 +------------------------+
                 |  Clone PhonePe Repo    |
                 +-----------+------------+
