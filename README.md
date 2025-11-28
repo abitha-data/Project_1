@@ -108,3 +108,14 @@ Git helps track changes in the code, while GitHub is used to store the project o
 ### JSON: 
 JSON is a simple text-based format used to store and exchange data.
 It holds data in key–value pairs, making it easy to read, write, and convert into tables for analysis.
+
+### 🗄️ Folder Structure:
+📁 phonepe-Transaction/
+│── 📁 data/                  # JSON extracted files
+│── 📁 sql/                   # SQL loading scripts
+│── 📁 src/                   # Python ETL + transforms
+│── app.py                    # Streamlit UI
+│── Transform.py              # ETL pipeline code
+│── requirements.txt
+│── README.md
+
