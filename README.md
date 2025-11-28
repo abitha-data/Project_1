@@ -36,19 +36,29 @@ The main goal of this project is to analyze India’s digital payment trends usi
 📂 Uses real PhonePe Pulse open-source dataset
 
 ### ⭐ 🛠️ Technologies Used 
-### Python – #### The core programming language used for developing the data extraction and processing scripts.
+### Python:
+The core programming language used for developing the data extraction and processing scripts.
 
-### PostgreSQL 🗄️ – #### Main SQL database used for storing tables and running analytical queries
+### PostgreSQL 🗄️:
+Main SQL database used for storing tables and running analytical queries
 
-#### Pandas – #### For data manipulation and transformation. To install this package:
+### Pandas:
+For data manipulation and transformation. To install this package:
 
           pip install Pandas
 
-### PostgreSQL 🗄️ -Connector: #### PostgreSQL-Connector was used to establish a connection between Python and the PostgreSQL database.
+### PostgreSQL 🗄️ -Connector: 
+PostgreSQL-Connector was used to establish a connection between Python and the PostgreSQL database.
 It allows Python scripts to execute SQL queries, insert data, fetch results, and manage the ETL workflow smoothly, 
 To install this package:
 
  pip install psycopg2
+
+### Streamlit:
+Streamlit is an open-source Python library designed to create and share custom web applications for data science and machine learning projects with minimal effort. Its simplicity and focus on rapid prototyping make it a popular choice among data scientists and developers who need to quickly visualize and interact with data. Also you can download the data as csv file from the web application. To install this package 
+
+pip install streamlit
+
 
 Plotly & Altair – for charts and visualizations
 
