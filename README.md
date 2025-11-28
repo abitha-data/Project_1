@@ -59,7 +59,6 @@ Streamlit is an open-source Python library designed to create and share custom w
 
 pip install streamlit
 
-
 Plotly & Altair – for charts and visualizations
 
 Streamlit – for building the dashboard
