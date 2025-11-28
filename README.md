@@ -35,6 +35,45 @@ The main goal of this project is to analyze India’s digital payment trends usi
 
 📂 Uses real PhonePe Pulse open-source dataset
 
+### 🗂️ Project Architecture Diagram
+### 🧩 High-Level Flowchart (ASCII version)
+                +------------------------+
+                |  Clone PhonePe Repo    |
+                +-----------+------------+
+                            |
+                            v
+                +------------------------+
+                |   Extract JSON files   |
+                +-----------+------------+
+                            |
+                            v
+                +------------------------+
+                |   Transform (ETL)      |
+                | Clean + Normalize JSON |
+                +-----------+------------+
+                            |
+                            v
+                +------------------------+
+                |     Load to SQL DB     |
+                |  (Aggregated, Map, Top)|
+                +-----------+------------+
+                            |
+                            v
+                +------------------------+
+                |  SQL Analysis & Views  |
+                +-----------+------------+
+                            |
+                            v
+                +------------------------+
+                | Python EDA + Charts    |
+                | Pandas / Seaborn / PX  |
+                +-----------+------------+
+                            |
+                            v
+                +------------------------+
+                | Streamlit Dashboard UI |
+                +------------------------+
+
 ### ⭐ 🛠️ Technologies Used 
 ### Python:
 The core programming language used for developing the data extraction and processing scripts.
