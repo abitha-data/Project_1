@@ -111,11 +111,18 @@ It holds data in key–value pairs, making it easy to read, write, and convert i
 
 ### 🗄️ Folder Structure:
 📁 phonepe-Transaction/
+
 │── 📁 data/                  # JSON extracted files
+
 │── 📁 sql/                   # SQL loading scripts
+
 │── 📁 src/                   # Python ETL + transforms
+
 │── app.py                    # Streamlit UI
+
 │── Transform.py              # ETL pipeline code
+
 │── requirements.txt
+
 │── README.md
 
