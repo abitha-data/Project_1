@@ -120,8 +120,8 @@ Git installed for cloning the PhonePe Pulse repository
 
 Stable internet connection for fetching data 🌐
 
-### ⭐ 🔄 Project Workflow (Emoji + Detailed Version)
-### 1️⃣ Data Extraction
+### ⭐ 🔄 Project Workflow:
+### 1️⃣ Data Extraction:
 
 The PhonePe Pulse GitHub repository is cloned automatically using a Python script.
 
@@ -129,7 +129,7 @@ All JSON files containing state-wise, district-wise, and category-wise data are 
 
 Files are organized by year and quarter, ready for transformation.
 
-### 2️⃣ Data Transformation
+### 2️⃣ Data Transformation:
 
 Using Python + Pandas, the raw JSON data is cleaned and normalized.
 
@@ -139,7 +139,7 @@ Columns such as state, year, quarter, transaction_count, transaction_amount, use
 
 Missing or inconsistent values are handled to ensure accuracy.
 
-### 3️⃣ 🗄️ Database Insertion (PostgreSQL)
+### 3️⃣ 🗄️ Database Insertion (PostgreSQL):
 
 The transformed data is inserted into PostgreSQL tables using a connector like psycopg2.
 
@@ -147,7 +147,7 @@ Separate tables are created for transactions, users, insurance, and top metrics.
 
 SQL schema ensures fast filtering, grouping, and aggregation during analysis.
 
-### 4️⃣ 🖥️ Dashboard Creation (Streamlit + Plotly)
+### 4️⃣ 🖥️ Dashboard Creation (Streamlit + Plotly):
 
 An interactive Streamlit dashboard is built to visualize insights.
 
@@ -157,7 +157,7 @@ Users can filter data by year, state, category, and type of metric.
 
 Dashboard updates dynamically based on the selected filters.
 
-### 5️⃣ 🔄 Data Retrieval & Live Updates
+### 5️⃣ 🔄 Data Retrieval & Live Updates:
 
 When the dashboard loads, data is fetched from PostgreSQL.
 
