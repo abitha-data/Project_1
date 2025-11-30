@@ -198,6 +198,9 @@ Users always see the latest insights since the data is pulled directly from the 
 
 │── README.md
 
+### Screenshot:
+
+<img width="1920" height="1080" alt="Screenshot 2025-11-30 133934" src="https://github.com/user-attachments/assets/dea620bf-5b21-4221-931a-471473d4b595" />
 
 
 
