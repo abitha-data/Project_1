@@ -190,9 +190,9 @@ Users always see the latest insights since the data is pulled directly from the 
 
 │── 📁 src/                  
 
-│── phonepetest.ibynb                    
+│── phonepetest.ipynb                    
 
-│──mainphonepe.ibynb               
+│──mainphonepe.ipynb              
 
 │──phonepe.py
 
