@@ -1,4 +1,4 @@
-# Project_1
+# PhonePe
 ## 📱💸📊 PhonePe Transaction Insights – End-to-End Data Analytics Project
   ###  Interactive Dashboard • SQL Analysis • Python EDA • Streamlit App
 
